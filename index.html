@@ -5,113 +5,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programacion Web</title>
-    <!-- 1. Universal-->
-    <!-- 2. Por tipo de elemento-->
-    <!-- 3. Por clase-->
+    <title>Pagina Web</title>
+    <!--1. Universal-->
+    <!--2. Tipo de elemento-->
+    <!--3. Clase-->
+    <!--4. Por ID-->
+    <!--5. Por Atributo-->
+    <!--6. Pseudo clase-->
     <style>
         * {
-            color: darkorange;
+            color: black;
         }
         h1 {
             color: blue;
         }
-        p{
+        p {
             size: 17px;
         }
-        .clase1{
-            color: black;
+        .clase1 {
+            color:black;
         }
-        #idtitulogrande{
-            color: green;
+        #idtitulogrande {
+            color:green;
         }
         a[href]{
-            color: brown;
+            color:brown;
         }
         a[href*=".ec"]{
-            color: red;
+            color:red;
         }
-        /*
-        label:hover{
-            color: red;
-            background-color: blue;
-            font-size: 50px;
+        /*img[alt*="puede"]{
+            Tambien se puede con otros atributos no solo con ref
         }*/
         
+        label:hover{
+            color:red;
+            background-color: aqua;
+            font-size: 12px;
+        }
     </style>
 </head>
 
 <body>
-
-    <header>
-        <h1 style="color:red";>Banco del Pichincha</h1>
-        <h6 style="color:goldenrod";>Banco del Pichincha</h6>
-        <h4 class="clase1">Selector Clase1 </h4>
-        <h3 class="clase1">Selector Clase2</h3>
-        <h3 class="clase2">Selector Clase2</h3>
-        <h2 id="idtitulogrande">Selector por ID</h2>
-        <img src="./img/cabecera.png" alt="No se pudo cargar la imagen">
-    </header>
+    <header></header>
+    <h1 style="color:red">Banco del Pichincha</h1>
+    <h4 class="clase1">Selector Clase1</h4>
+    <h3 class="clase1">Selector Clase2</h3>
+    <h3 class="clase2">Selector Clase2</h3>
+    <h2 id="idtitulogrande">Selector por ID</h2>
+    <h6>Banco del Pichincha</h6>
+    <img src="./img/cabecera.png" alt="No se pudo cargar la imagen">
     <nav>
         <ul>
-            <!--<li>Cuentas</li>
+            <!--
+            <li>Cuentas</li>
             <li>Tarjetas</li>
             <li>Prestamos</li>
             <li>Inversiones</li>
-            <li>Servicios</li>-->
+            <li>Servicios</li>
+            -->
             <li>
-                <a href="https://www.google.com.ec">Google</a>
+                <a href="https://www.google.com.ec/">Google</a>
             </li>
             <li>
-                <a href="https://outlook.live.com/owa/">Hotmail</a>
+                <a href="https://www.outlook.live.com/owa/">Hotmail</a>
             </li>
             <li>
-                <a href="https://www.apple.com.ec">Apple</a>
+                <a href="https://www.apple.com.ec/">Apple</a>
             </li>
-            <label for="idnombre">Nombre:</label>
-            <input id="idnombre" type="text">
-            <label for="idapellido">Apellido:</label>
-            <input id="idapellido" type="text">
+            <label for="">Selector pseudo clase</label>
         </ul>
     </nav>
     <section>
         <article>
-            <h1>1</h1>
+            <label for="idnombre">Nombre:</label>
+            <input id="idnombre" type="text">
+            <label for="idapellido">Apellido:</label>
+            <input id="idapellido" type="text">
             <h3>Primer Parrafo</h3>
             <time datetime="12-10-2023">Publicado el 12-10-2023</time>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium officiis consequuntur nihil dolore
-                totam? Rerum quo aliquam nihil? Magni optio ratione quae quos minus fugit modi laudantium dicta expedita
-                aperiam.</p>
-            <footer>
-                <p>Comentario (3)</p>
-            </footer>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores aliquid molestiae recusandae ab? Rerum
+                voluptate numquam dolores optio minima perferendis. Sunt nostrum cumque sint explicabo! Illo, illum
+                iste! A, natus!</p>
+                <footer>
+                    <p>Comentarios (3)</p>
+                </footer>
         </article>
-
         <article>
             <h1>2</h1>
             <h3>Segundo Parrafo</h3>
-            <time datetime="13-10-2023">Publicado el 12-10-2023</time>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure error ad et, dolorum consequuntur aut eos
-                saepe, sit officiis laboriosam explicabo minus quae quia neque voluptatum nostrum maiores quam labore,
-                earum mollitia quasi rerum quibusdam. Itaque explicabo iusto fugiat accusamus!</p>
-            <footer>
-                <p>Comentario (10)</p>
-            </footer>
+            <time datetime="12-10-2023">Publicado el 12-10-2023</time>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus atque eius repudiandae? Quaerat
+                ex expedita, laboriosam aliquam maiores perspiciatis quae. Neque numquam sequi voluptate. Illo ex unde
+                rerum praesentium eveniet placeat quia, maxime veniam saepe perferendis error ipsum, rem ad voluptas
+                nihil quae eligendi, facere fugit alias dolore aliquid!</p>
+                <footer>
+                    <p>Comentarios (10)</p>
+                </footer>
         </article>
-
     </section>
     <aside>
-        <blockquote cite="https://www.produbanco.com.ec/">
-            Referencia 1
-        </blockquote>
-        <blockquote cite="https://www.bgr.com.ec/">
-            Referencia 2
-        </blockquote>
+        <blockquote cite="https://www.pichincha.com/portal/">Referencia 1</blockquote>
+        <blockquote cite="https://www.produbanco.com.ec/">Referencia 2</blockquote>
     </aside>
     <footer>
-        Derechos reservados 2022-2023
+        Derechos Reservados 2022-2023
     </footer>
-
 </body>
 
 </html>

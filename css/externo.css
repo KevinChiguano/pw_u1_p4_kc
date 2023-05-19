@@ -1,27 +1,26 @@
 * {
-    color: cornflowerblue;
+    color: black;
 }
 h1 {
     color: blue;
 }
-p{
+p {
     size: 17px;
 }
-.clase1{
-    color: black;
+.clase1 {
+    color:rgb(201, 145, 24);
 }
-#idtitulogrande{
-    color: green;
+#idtitulogrande {
+    color:rgb(28, 0, 128);
 }
 a[href]{
-    color: brown;
+    color:rgb(165, 42, 118);
 }
 a[href*=".ec"]{
-    color: red;
+    color:rgb(0, 255, 157);
 }
-
 label:hover{
-    color: red;
-    background-color: blue;
-    font-size: 50px;
+    color:rgb(0, 247, 255);
+    background-color: rgb(255, 0, 157);
+    font-size: 12px;
 }
