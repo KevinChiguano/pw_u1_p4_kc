@@ -1,26 +1,37 @@
 * {
-    color: black;
-}
+    color: yellow;
+    background-color: black;
+  }
+/*2. por elemento*/
 h1 {
-    color: blue;
+  color: blue;
 }
-p {
-    size: 17px;
+p{
+  size: 17px;
 }
 .clase1 {
-    color:rgb(201, 145, 24);
+  color: aqua;
 }
-#idtitulogrande {
-    color:rgb(28, 0, 128);
+.clase2 {
+  color : purple;
 }
-a[href]{
-    color:rgb(165, 42, 118);
+#idtitulogrande{
+  color: greenyellow;
 }
-a[href*=".ec"]{
-    color:rgb(0, 255, 157);
+a[href] {
+  color: brown;
 }
-label:hover{
-    color:rgb(0, 247, 255);
-    background-color: rgb(255, 0, 157);
-    font-size: 12px;
+
+a[href*=".ec"] {
+  color: rgb(192, 6, 230);
 }
+
+/*img[alt*="puede"]{
+
+}*/
+
+/*label:hover{
+  color: orangered;
+  background-color: blue;
+  font-size: 51px;
+}*/
